@@ -1,0 +1,8 @@
+streamlit>=1.14
+python-docx>=0.8.11
+docx2txt>=0.8
+requests
+sentence-transformers>=2.2.2   # optional for RAG embeddings
+faiss-cpu                     # optional for RAG vector store
+chromadb                      # optional alternative
+openai                        # optional if you plan to use OpenAI for RAG/LLM
